@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Sanchez:ital@0;1&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <!-- Navbar -->
@@ -66,12 +67,12 @@
     <!-- Home -->
     <section class="bg-stone-950 flex items-center justify-center w-full h-auto md:h-screen pt-10 px-10">
         <div class="max-w-6xl flex flex-col-reverse justify-between items-center gap-0 md:flex-row-reverse lg:gap-24">
-            <div class="flex">
+            <div data-aos="fade-right" data-aos-duration="3000" class="flex">
                 <div class="flex items-center justify-center">
                     <img src="./assets/home.png" alt="home" class="w-96"/>
                 </div>
             </div>
-            <div>
+            <div data-aos="fade-left" data-aos-duration="3000">
                 <p class="text-stone-50 text-7xl font-normal mb-4 font-dela">LET'S</p>
                 <p class="text-stone-50 text-7xl font-normal mb-8 font-dela">CHAT</p>
                 <p class="text-orange-400 text-2xl font-sanchez">Practical English conversation</p>
@@ -81,10 +82,10 @@
       
     <!-- Conocenos -->
     <section class="bg-stone-950 flex flex-col items-center justify-center w-full h-auto p-10">
-        <div class="max-w-6xl">
+        <div data-aos="fade-up" data-aos-duration="3000" class="max-w-6xl">
             <h2 class="text-stone-50 text-5xl mb-8 font-sanchez">Conocenos!</h2>
         </div>
-        <div class="max-w-6xl text-center px-10">
+        <div data-aos="fade-up" data-aos-duration="3000" class="max-w-6xl text-center px-10">
             <p class="text-stone-50 mb-4 font-montserrat">Somos Polly y Raque! (Una <span class="text-orange-400 font-bold">inglesa nativa</span> y una <span class="text-orange-400 font-bold">argentina</span> con experiencia de haber vivido en EEUU). Somos profesoras y coach de inglés con más de <span class="text-orange-400 font-bold">21 años de experiencia</span>, y nos unimos fuerzas para crear <span class="text-orange-400 font-bold">Let’s Chat</span>!</p>
             <p class="text-stone-50 mb-4 font-montserrat">En <span class="text-orange-400 font-bold">Let’s Chat</span> nos especializamos en espacios de <span class="text-orange-400 font-bold">conversación</span>. No importa tu nivel, tenemos algo para vos!</p>
             <p class="text-stone-50 mb-4 font-montserrat">Cada encuentro está diseñado para que desarrolles herramientas para <span class="text-orange-400 font-bold">comunicarte con más confianza</span> en inglés. Juntos vamos a vencer los miedos de hablar, y seguir aprendiendo el idioma!</p>
@@ -94,7 +95,7 @@
     <!-- El team -->
     <section class="bg-stone-950 flex flex-col items-center justify-center w-full h-auto p-10">
         <!-- Polly -->
-        <div class="max-w-6xl p-10">
+        <div data-aos="fade-right" data-aos-duration="3000" class="max-w-6xl p-10">
             <div class="text-left">
                 <h2 class="text-stone-50 text-4xl font-sanchez text-center lg:text-left">El team</h2>
                 <h3 class="text-red-300 mb-8 text-7xl font-dela text-center lg:text-left">Polly</h3>
@@ -114,7 +115,7 @@
         </div>
 
         <!-- Raque -->
-        <div class="max-w-6xl p-10">
+        <div data-aos="fade-left" data-aos-duration="3000" class="max-w-6xl p-10">
             <div class="sm:text-right">
                 <h2 class="text-stone-50 text-4xl font-sanchez text-center lg:text-right">El team</h2>
                 <h3 class="text-red-500 mb-8 text-7xl font-dela text-center lg:text-right">Raque</h3>
@@ -136,10 +137,10 @@
     <!-- Nuestras clases -->
     <section class="bg-stone-950 flex items-center justify-center w-full h-auto px-10 py-0 sm:py-10">
         <div class="max-w-6xl px-10 py-0 md:py-10 flex flex-col">
-            <p class="text-stone-50 text-5xl font-normal font-dela text-center md:text-left">NUESTRAS</p>
-            <p class="text-stone-50 text-5xl font-normal font-dela mb-8 text-center md:text-left lg:mb-0">CLASES</p>
+            <p data-aos="fade-right" data-aos-duration="3000" class="text-stone-50 text-5xl font-normal font-dela text-center md:text-left">NUESTRAS</p>
+            <p data-aos="fade-right" data-aos-duration="3000" class="text-stone-50 text-5xl font-normal font-dela mb-8 text-center md:text-left lg:mb-0">CLASES</p>
             <div class="flex flex-col pt-2 md:flex-row">
-                <div class="flex flex-col justify-center w-full text-center md:w-1/2 md:text-left">
+                <div data-aos="fade-right" data-aos-duration="3000" class="flex flex-col justify-center w-full text-center md:w-1/2 md:text-left">
                     <!-- <p class="text-stone-50 text-5xl font-normal mb-4 font-dela">NUESTRAS</p> -->
                     <!-- <p class="text-stone-50 text-5xl font-normal mb-12 font-dela lg:mb-16">NUESTRAS CLASES</p> -->
 
@@ -148,7 +149,7 @@
                     <p class="text-stone-50 mb-4 font-montserrat"><span class="text-orange-400 font-bold">¡Son 100% prácticas!</span> Hablamos mucho! Y aprendemos mientras escuchamos también!</p>
                     <p class="text-stone-50 mb-4 font-montserrat">Hablamos sobre una <span class="text-orange-400 font-bold">gran variedad de temas</span> interesantes actuales.</p>
                 </div>
-                <div class="w-full md:w-1/2 flex justify-center align-middle items-center text-center">
+                <div data-aos="fade-left" data-aos-duration="3000" class="w-full md:w-1/2 flex justify-center align-middle items-center text-center">
                     <img src="./assets/clases.png" alt="clases" class="w-64 h-64 lg:w-80 lg:h-80">
                 </div>     
             </div>
@@ -159,7 +160,7 @@
     <section id="cl_Polly" class="bg-stone-950 flex items-center justify-center w-full h-auto p-10">
         <div class="max-w-6xl px-10">
             <div class="flex flex-col gap-4 sm:flex-row sm:gap-10">
-                <div class="sm:w-2/3">
+                <div data-aos="fade-right" data-aos-duration="3000" class="sm:w-2/3">
                     <p class="text-red-300 text-3xl font-normal mb-2 font-dela lg:text-5xl">SUMMER</p>
                     <p class="text-red-300 text-3xl font-normal mb-2 font-dela lg:text-5xl">CONVERSATION</p>
                     <p class="text-red-300 text-3xl font-normal mb-2 font-dela lg:text-5xl">CLUB</p>
@@ -169,7 +170,7 @@
                     <p class="text-stone-50 mb-4 font-montserrat">Con <span class="text-orange-400 font-bold">Polly</span> nos juntamos virtualmente, con mate de por medio, 1 vez a la semana, 1 hora, y charlamos! </p>
                     <p class="text-stone-50 mb-4 font-montserrat">Cada semana tenemos una temática diferente de la cual charlar! Al inscribirte pasamos los temas para te puedas preparar.</p>
                 </div> 
-                <div class="flex flex-col justify-center align-middle sm:w-1/3">
+                <div data-aos="fade-left" data-aos-duration="3000" class="flex flex-col justify-center align-middle sm:w-1/3">
                     <p class="text-orange-400 font-bold">Horario</p>
                     <p class="text-stone-50 font-montserrat">Martes 18:30hs (ARG)</p>
                     <p class="text-stone-50 mb-4 font-montserrat">Jueves 17:00hs (ARG)</p>
@@ -191,7 +192,7 @@
     <section class="bg-stone-950 flex items-center justify-center w-full h-auto p-10">
         <div class="max-w-6xl px-10">
             <div class="flex flex-col gap-4 sm:flex-row sm:gap-10">
-                <div class="sm:w-2/3">
+                <div data-aos="fade-right" data-aos-duration="3000" class="sm:w-2/3">
                     <p class="text-red-300 text-3xl font-normal mb-2 font-dela lg:text-5xl">SUMMER</p>
                     <p class="text-red-300 text-3xl font-normal mb-2 font-dela lg:text-5xl">CONVERSATION</p>
                     <p class="text-red-300 text-3xl font-normal mb-2 font-dela lg:text-5xl">CLUB</p>
@@ -201,7 +202,7 @@
                     <p class="text-stone-50 mb-4 font-montserrat">Con <span class="text-orange-400 font-bold">Polly</span> nos juntamos virtualmente, con mate de por medio, 1 vez a la semana, 1 hora, y charlamos! </p>
                     <p class="text-stone-50 mb-4 font-montserrat">Cada semana tenemos una temática diferente de la cual charlar!</p>
                 </div> 
-                <div class="flex flex-col justify-center align-middle sm:w-1/3">
+                <div data-aos="fade-left" data-aos-duration="3000" class="flex flex-col justify-center align-middle sm:w-1/3">
                     <p class="text-orange-400 font-bold">Horario</p>
                     <p class="text-stone-50 font-montserrat">Martes 18:30hs (ARG)</p>
                     <p class="text-stone-50 mb-4 font-montserrat">Jueves 17:00hs (ARG)</p>
@@ -223,7 +224,7 @@
     <section id="cl_Raque" class="bg-stone-950 flex items-center justify-center w-full h-auto p-10">
         <div class="max-w-6xl px-10">
             <div class="flex flex-col gap-4 sm:flex-row sm:gap-10">
-                <div class="sm:w-2/3">
+                <div data-aos="fade-right" data-aos-duration="3000" class="sm:w-2/3">
                     <p class="text-red-500 text-3xl font-normal mb-2 font-dela lg:text-5xl">SUMMER</p>
                     <p class="text-red-500 text-3xl font-normal mb-2 font-dela lg:text-5xl">BEGINNERS</p>
                     <p class="text-stone-50 text-2xl mb-8 font-sanchez">(Con Raque)</p>
@@ -237,7 +238,7 @@
                     <p class="text-stone-50 font-montserrat ml-10"><span class="text-orange-400 font-bold text-xl">· </span>Aprender vocabulario y expresiones relacionadas con escenarios cotidianos, como presentarse, hacer compras, o dar indicaciones.</p> 
                     <p class="text-stone-50 font-montserrat ml-10"><span class="text-orange-400 font-bold text-xl">· </span>Ayudar a los participantes a iniciar el proceso de comunicación, <span class="text-orange-400 font-bold">dejando atrás el temor de hablar un idioma nuevo</span>.</p>     
                 </div> 
-                <div class="flex flex-col justify-center align-middle sm:w-1/3">
+                <div data-aos="fade-left" data-aos-duration="3000" class="flex flex-col justify-center align-middle sm:w-1/3">
                     <p class="text-orange-400 font-bold">Horario</p>
                     <p class="text-stone-50 mb-4 font-montserrat">Jueves 19:30hs (ARG)</p>
                     <p class="text-orange-400 font-bold">Modalidad</p>
@@ -260,7 +261,7 @@
     <section class="bg-stone-950 flex items-center justify-center w-full h-auto p-10">
         <div class="max-w-6xl px-10">
             <div class="flex flex-col gap-4 sm:flex-row sm:gap-10">
-                <div class="sm:w-2/3">
+                <div data-aos="fade-right" data-aos-duration="3000" class="sm:w-2/3">
                     <p class="text-red-500 text-3xl font-normal mb-2 font-dela lg:text-5xl">READY TO</p>
                     <p class="text-red-500 text-3xl font-normal mb-2 font-dela lg:text-5xl">TRAVEL</p>
                     <p class="text-stone-50 text-2xl mb-8 font-sanchez">(Con Raque)</p>
@@ -274,7 +275,7 @@
                     <p class="text-stone-50 font-montserrat ml-10"><span class="text-orange-400 font-bold text-xl">· </span>Aprender vocabulario y expresiones relacionadas con escenarios cotidianos, como presentarse, hacer compras, o dar indicaciones.</p> 
                     <p class="text-stone-50 font-montserrat ml-10"><span class="text-orange-400 font-bold text-xl">· </span>Ayudar a los participantes a iniciar el proceso de comunicación, <span class="text-orange-400 font-bold">dejando atrás el temor de hablar un idioma nuevo</span>.</p>
                 </div> 
-                <div class="flex flex-col justify-center align-middle sm:w-1/3">
+                <div data-aos="fade-left" data-aos-duration="3000" class="flex flex-col justify-center align-middle sm:w-1/3">
                     <p class="text-orange-400 font-bold">Horario</p>
                     <p class="text-stone-50 mb-4 font-montserrat">Martes 19:30hs (ARG)</p>
                     <p class="text-orange-400 font-bold">Modalidad</p>
@@ -306,5 +307,8 @@
     </footer>
 
     <script src="./js/index.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init();</script>
+    
 </body>
 </html>
